@@ -1,0 +1,62 @@
+:root {
+    --button-shadow: #4b3832;
+    --button: #854442;
+    --background: #fff4e6;
+    --figure: #be9b7b;
+    --text: #3c2f2f;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--text);
+}
+
+body {
+    background-color: var(--background);
+}
+
+nav ul {
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin: 1vw;
+}
+
+section {
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+
+#work a {
+    display: block;
+    width: 50%;
+    text-decoration: none;
+}
+
+#cards a {
+    width: 25%;
+    margin: 0 1vh;
+}
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 10px;
+    border: solid black;
+    width: 100%;
+    background-color: var(--figure);
+}
+
+.card:hover {
+    
+}
+
+#first-card {
+    display: block;
+    width: 100%;
+}
