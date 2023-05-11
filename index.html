@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,16 +18,15 @@
         </div>
         <nav>
             <ul>
-                <li>About Me</li>
-                <li>Work</li>
-                <li>Contact</li>
-                <li>Resume</li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
     <div id="flex-container">
-        <section id="about">
-            <h2>
+        <section>
+            <h2 id="about">
                 About Me
             </h2>
             <p>
@@ -64,7 +65,7 @@
             </p>
         </section>
         <section id="work">
-            <h2>
+            <h2 id="work">
                 My Work
             </h2>
             <a href="#">
@@ -104,10 +105,13 @@
             </div>
         </section>
     </div>
-    <section id="contact">
-        <h2>
+    <section>
+        <h2 id="contact">
             Contact Me
         </h2>
+        <p>
+            email: <a href="mailto: nicholas.babcock092@gmail.com">nicholas.babcock092@gmail.com</a>
+        </p>
     </section>
     <footer>
         &copy; 2023 Nicholas Babcock

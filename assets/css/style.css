@@ -37,7 +37,7 @@ section {
     width: 50%;
 }
 
-#work a {
+section#work a {
     display: block;
     text-decoration: none;
 }
